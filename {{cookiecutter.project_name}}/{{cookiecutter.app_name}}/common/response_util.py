@@ -6,6 +6,7 @@
 import math
 from {{cookiecutter.app_name}}.consts import res_status
 
+
 def response_body(data, status=res_status.OK):
     body = {"status": status, "data": data}
     return body

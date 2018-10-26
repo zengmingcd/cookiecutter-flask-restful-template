@@ -4,7 +4,8 @@
 """
 
 import datetime
-from {{cookiecutter.project_name}}.extensions import db
+from extensions import db
+
 
 class DemoModel(db.Model):
     """

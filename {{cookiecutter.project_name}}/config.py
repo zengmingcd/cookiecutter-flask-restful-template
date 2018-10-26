@@ -11,6 +11,7 @@ from logging.handlers import TimedRotatingFileHandler
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+
 class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
@@ -37,14 +38,17 @@ class Config:
         log_console_handler.setLevel(logging.DEBUG)
         app.logger.addHandler(log_console_handler)
 
+
 class DevelopmentConfig(Config):
     DEBUG = True
     USE_RELOAD = False
     SQLALCHEMY_DATABASE_URI = r'mysql://user:password@host:port/schema?charset=utf8'
 
+
 class ProductionConfig(Config):
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = r'mysql://user:password@host:port/schema?charset=utf8'
+
 
 config = {
     'development': DevelopmentConfig,

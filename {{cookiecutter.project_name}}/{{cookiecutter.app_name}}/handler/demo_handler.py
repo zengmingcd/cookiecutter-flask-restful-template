@@ -6,6 +6,7 @@
 from flask_restful import current_app
 from {{cookiecutter.app_name}}.models.models import DemoModel
 
+
 def query_by_id(id):
     result = None
     if id:

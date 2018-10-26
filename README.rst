@@ -27,7 +27,7 @@ Usage
 ::
 
  pip3 install --user cookiecutter
- cookiecutter https://github.com/zengmingcd/cookiecutter-flask-restful-template.git
+ python3 -m cookiecutter https://github.com/zengmingcd/cookiecutter-flask-restful-template.git
  cd projectname
  bash evn_init.sh
 
