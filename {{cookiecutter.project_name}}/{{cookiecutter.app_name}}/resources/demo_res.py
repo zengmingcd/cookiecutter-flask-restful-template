@@ -18,8 +18,8 @@ class DemoAPI(Resource):
     def get(self):
         self.reqparse.add_argument('id', required=True, type=str, help=REQUEST_ARG_REQUIRED.format('id'), location='args')
         args = self.reqparse.parse_args()
-        id = args.get('id')
-        result = query_by_id(id)
+        d_id = args.get('id')
+        result = query_by_id(d_id)
         if result:
             return response_body(result, OK)
         else:

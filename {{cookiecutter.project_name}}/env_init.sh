@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo 初始化项目空间...
+echo 开始初始化项目空间，这需要一些时间，请耐心等待。
 mkdir logs
 code_dir=$(pwd)
 cd ..
