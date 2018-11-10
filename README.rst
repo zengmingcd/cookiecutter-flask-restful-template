@@ -9,7 +9,7 @@ Features
 --------
 A simple flask restful template for a simple api server project.
 
-more feature coming soon...
+more feature coming soon...
 
 Used packages
 -------------
@@ -29,7 +29,7 @@ Usage
  pip3 install --user cookiecutter
  python3 -m cookiecutter https://github.com/zengmingcd/cookiecutter-flask-restful-template.git
  cd projectname
- bash evn_init.sh
+ bash env_init.sh
 
  open project by IDE, such as PyCharm.
 
