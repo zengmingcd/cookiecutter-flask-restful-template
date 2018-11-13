@@ -8,7 +8,7 @@
 --------
 - {{cookiecutter.author}}  <{{cookiecutter.email}}>
 
-功能
+功能
 -----
 - TODO
 
@@ -20,7 +20,7 @@
 
  cd {{cookiecutter.project_name}}
 
-- 执行初始化脚本
+- 执行初始化脚本
 
 ::
 
@@ -36,7 +36,7 @@
 
  cd {{cookiecutter.project_name}}
 
-- 第一次部署时，执行初始化脚本
+- 第一次部署时，执行初始化脚本
 
 ::
 
